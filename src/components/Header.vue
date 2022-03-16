@@ -1,13 +1,14 @@
 <template>
   <header class="header" id="header">
     <nav class="nav container">
-      <a href="#" class="nav__logo"> <i class="bx bxs-watch nav__logo-icon"></i> Mohit </a>
+      <a href="#" class="nav__logo"> Mohit </a>
 
       <div class="nav__menu" id="nav-menu">
         <ul class="nav__list">
           <li class="nav__item">
             <a href="#home" class="nav__link active-link">
-              <box-icon name="home-alt"></box-icon>
+              <i class='bx bx-user'></i>
+              <box-icon name="home-alt" color="hsl(219, 8%, 75%)" ></box-icon>
             </a>
           </li>
           <li class="nav__item">
@@ -41,9 +42,6 @@
         <!-- Theme change button -->
         <box-icon name='moon' class="change-theme" id="theme-button"></box-icon>
 
-        <div class="nav__shop" id="cart-shop">
-          <i class="bx bx-shopping-bag"></i>
-        </div>
 
         <div class="nav__toggle" id="nav-toggle">
           <i class="bx bx-grid-alt"></i>

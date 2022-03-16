@@ -7,35 +7,34 @@
         <ul class="nav__list">
           <li class="nav__item">
             <a href="#home" class="nav__link active-link">
-              <i class='bx bx-user'></i>
-              <box-icon name="home-alt" color="hsl(219, 8%, 75%)" ></box-icon>
+              <i class='bx bx-home-alt'></i>
             </a>
           </li>
           <li class="nav__item">
             <a href="#about" class="nav__link">
-              <box-icon name="user"></box-icon>
+              <i class='bx bx-user'></i>
+              <!-- <box-icon name="user"></box-icon> -->
             </a>
           </li>
           <li class="nav__item">
             <a href="#skills" class="nav__link">
-              <box-icon name="book"></box-icon>
+              <i class='bx bx-book'></i>
+              <!-- <box-icon name="book"></box-icon> -->
             </a>
           </li>
           <li class="nav__item">
             <a href="#work" class="nav__link">
-              <box-icon name="briefcase-alt-2"></box-icon>
+              <i class='bx bx-briefcase-alt-2'></i>
+              <!-- <box-icon name="briefcase-alt-2"></box-icon> -->
             </a>
           </li>
           <li class="nav__item">
             <a href="#contact" class="nav__link">
-              <box-icon name="message-square-detail"></box-icon>
+              <i class='bx bx-message-square-detail'></i>
+              <!-- <box-icon name="message-square-detail"></box-icon> -->
             </a>
           </li>
         </ul>
-
-        <div class="nav__close" id="nav-close">
-          <i class="bx bx-x"></i>
-        </div>
       </div>
 
       <div class="nav__btns">

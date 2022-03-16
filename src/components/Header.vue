@@ -1,7 +1,7 @@
 <template>
   <header class="header" id="header">
     <nav class="nav container">
-      <a href="#" class="nav__logo"> <i class="bx bxs-watch nav__logo-icon"></i> Rolex </a>
+      <a href="#" class="nav__logo"> <i class="bx bxs-watch nav__logo-icon"></i> Mohit </a>
 
       <div class="nav__menu" id="nav-menu">
         <ul class="nav__list">
@@ -39,7 +39,7 @@
 
       <div class="nav__btns">
         <!-- Theme change button -->
-        <i class="bx bx-moon change-theme" id="theme-button"></i>
+        <box-icon name='moon' class="change-theme" id="theme-button"></box-icon>
 
         <div class="nav__shop" id="cart-shop">
           <i class="bx bx-shopping-bag"></i>

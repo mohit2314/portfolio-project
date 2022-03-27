@@ -37,15 +37,15 @@
         </ul>
       </div>
 
-      <div class="nav__btns">
+      <!-- <div class="nav__btns"> -->
         <!-- Theme change button -->
         <box-icon name='moon' class="change-theme" id="theme-button"></box-icon>
-
+<i class="bx bx-moon change-theme" id="theme-button"></i>
 
         <div class="nav__toggle" id="nav-toggle">
           <i class="bx bx-grid-alt"></i>
         </div>
-      </div>
+      <!-- </div> -->
     </nav>
   </header>
 </template>

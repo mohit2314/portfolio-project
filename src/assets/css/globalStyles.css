@@ -305,11 +305,52 @@ img {
 .home__social-link:hover{
   background-color: var(--first-color);
   color: #fff;
+}
 
+.home__social::after{
+  content: '';
+  height: 2px;
+  background-color: var(--first-color);
+  transform: rotate(90deg) translate(16px,3px);
+}
+.home__scroll{
+  color: var(--first-color);
+  right: -1.5rem;
+  bottom: 4rem;
+  display: grid;
+  row-gap: 2.25rem;
+  justify-items: center;
+}
+
+.home__scroll-icon{
+  font-size: 1.25rem;
+}
+
+.home__scroll-name{
+  font-size: var(--small-font-size);
+  transform: rotate(-90deg);
 }
 /*=============== BUTTONS ===============*/
+.button{
+  display: inline-block;
+  background-color: var(--first-color);
+  color: var(--body-color);
+  padding: .75rem 1rem;
+  border-radius: .5rem;
+  font-weight: var(--font-medium);
+  transition: .4s;
+}
 
+.button:hover{
+  background-color: var(--first-color-alt);
+  color: var(--body-color);
+}
 
+.button--ghost{
+  background-color: transparent;
+  border: 2px solid var(--first-color);
+  color: var(--first-color);
+}
 /*=============== ABOUT ===============*/
 
 

@@ -29,7 +29,7 @@
           Software Developer,who loves to build apps while paying great attention to performance, scalability, design pattern and maintainability."
         </p>
 
-        
+        <a href="#contact" class="button">Contact Me</a>
       </div>
     </div>
   </section>

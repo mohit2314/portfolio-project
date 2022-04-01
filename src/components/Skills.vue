@@ -67,6 +67,70 @@
           </div>
         </div>
       </div>
+      <!-- 2nd Skills content -->
+      <div class="skills__content">
+        <h3 class="skills__title">Backend Developer</h3>
+
+        <div class="skills__box">
+          <div class="skills__group">
+            <div class="skills__data">
+              <i class="bx bxs-badge-check"></i>
+
+              <div>
+                <h3 class="skills__name">Node.js</h3>
+                <span class="skills__level">Intermediate</span>
+              </div>
+            </div>
+            <!--  -->
+            <div class="skills__data">
+              <i class="bx bxs-badge-check"></i>
+
+              <div>
+                <h3 class="skills__name">Express</h3>
+                <span class="skills__level">Intermediate</span>
+              </div>
+            </div>
+            <!-- Skill-3 -->
+            <div class="skills__data">
+              <i class="bx bxs-badge-check"></i>
+
+              <div>
+                <h3 class="skills__name">MongoDB</h3>
+                <span class="skills__level">Intermediate</span>
+              </div>
+            </div>
+          </div>
+          <!-- 2nd Skills group -->
+          <div class="skills__group">
+            <div class="skills__data">
+              <i class="bx bxs-badge-check"></i>
+
+              <div>
+                <h3 class="skills__name">Firebase</h3>
+                <span class="skills__level">Intermediate</span>
+              </div>
+            </div>
+            <!--  -->
+            <div class="skills__data">
+              <i class="bx bxs-badge-check"></i>
+
+              <div>
+                <h3 class="skills__name">Node.js</h3>
+                <span class="skills__level">Intermediate</span>
+              </div>
+            </div>
+            <!-- Skill-3 -->
+            <div class="skills__data">
+              <i class="bx bxs-badge-check"></i>
+
+              <div>
+                <h3 class="skills__name">Express</h3>
+                <span class="skills__level">Intermediate</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </section>
 </template>

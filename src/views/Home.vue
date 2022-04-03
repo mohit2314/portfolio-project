@@ -3,6 +3,7 @@
 <MainSection />
 <About />
 <Skills />
+<Services />
 </template>
 
 <script >
@@ -11,12 +12,14 @@ import MainSection from '@/components/MainSection.vue';
 import About from '@/components/About.vue'
 // import main from '@/views/main'
 import Skills from '@/components/Skills.vue';
+import Services from '@/components/Services.vue';
 export default {
  components:{
    Header,
    MainSection,
    About,
-   Skills
+   Skills,
+   Services
  }
 
 };

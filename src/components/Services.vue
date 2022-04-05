@@ -9,11 +9,13 @@
           Product <br />
           Designer
         </h3>
-        <span class="services__button">
+        <span class="services__button" @click="modal1=true">
           See more <i class="bx bx-right-arrow-alt services__icon"></i>
         </span>
         <!-- Service Modal -->
-        <div class="services__modal">
+        <div
+          :class="['services__modal',{'active-modal':modal1}]"
+        >
           <div class="services__modal-content">
             <i class="bx bx-x services__modal-close"></i>
             <h3 class="services__modal-title">
@@ -182,7 +184,67 @@
 </template>
 
 <script>
-export default {};
+export default {
+  data() {
+    return {
+      modal1:false,
+      serviceModals: [
+        {
+          title: "Front End",
+          subtitle: "Development",
+          description:
+            "Service with more than 3 years of experience.Providing quality work to clients and companies",
+          servicePoints: [
+            " I develop the user interface.",
+            "Web page development.",
+            "I create ux element interactions.",
+            "I position your company brand.",
+            "Design and mockups of product for companies.",
+          ],
+        },
+         {
+          title: "Back End",
+          subtitle: "Development",
+          description:
+            "Service with more than 3 years of experience.Providing quality work to clients and companies",
+          servicePoints: [
+            " I develop the user interface.",
+            "Web page development.",
+            "I create ux element interactions.",
+            "I position your company brand.",
+            "Design and mockups of product for companies.",
+          ],
+        },
+         {
+          title: "Product",
+          subtitle: "Management",
+          description:
+            "Service with more than 3 years of experience.Providing quality work to clients and companies",
+          servicePoints: [
+            " I develop the user interface.",
+            "Web page development.",
+            "I create ux element interactions.",
+            "I position your company brand.",
+            "Design and mockups of product for companies.",
+          ],
+        },
+        {
+          title: "Trainings",
+          subtitle: "Web Development",
+          description:
+            "Service with more than 3 years of experience.Providing quality work to clients and companies",
+          servicePoints: [
+            " I develop the user interface.",
+            "Web page development.",
+            "I create ux element interactions.",
+            "I position your company brand.",
+            "Design and mockups of product for companies.",
+          ],
+        },
+      ],
+    };
+  },
+};
 </script>
 
 <style></style>

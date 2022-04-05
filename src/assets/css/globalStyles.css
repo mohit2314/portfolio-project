@@ -552,6 +552,10 @@ img {
   cursor: pointer;
 }
 /*Active modal*/
+.active-modal{
+  opacity: 1;
+  visibility: visible;
+}
 
 
 /*=============== WORK ===============*/

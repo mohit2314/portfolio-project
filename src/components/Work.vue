@@ -13,8 +13,12 @@
       </div>
 
       <div class="work__container container grid">
-          <div class="work__card">
-              <img src="assets/img/work1.jpg" alt="" class="work__img">
+          <div class="work__card" v-for="(card,index) in workCards" :key="index">
+              <img :src="require(`../assets/img/${card.img}`)" alt="" class="work__img">
+              <h3 class="work__title">{{card.title}}</h3>
+              <a href="#" class="work__button">
+                  <i class="bx bx-right-arrow-alt work__icon"></i>
+              </a>
           </div>
       </div>
   </section>
@@ -22,7 +26,36 @@
 
 <script>
 export default {
+data(){
+    return{
+        workCards:[
+            {
+               title:'Web Design',
+               img: 'work1.jpg'
+            },
+            {
+               title:'Mobile App',
+               img: 'work2.jpg'
 
+            },
+            {
+               title:'Brand Design',
+               img: 'work3.jpg'
+
+            },
+            {
+               title:'App Devlopment',
+               img: 'work4.jpg'
+
+            },
+            {
+               title:'App Devlopment',
+               img: 'work5.jpg'
+
+            },
+        ]
+    }
+}
 }
 </script>
 

@@ -5,8 +5,8 @@
       </span>
       <h2 class="section__title">Recent Works</h2>
 
-      <div class="work___filters">
-<span class="work__item">All</span>
+      <div class="work__filters">
+<span class="work__item active-work">All</span>
 <span class="work__item">Web</span>
 <span class="work__item">Mobile</span>
 <span class="work__item">Design</span>
@@ -17,6 +17,7 @@
               <img :src="require(`../assets/img/${card.img}`)" alt="" class="work__img">
               <h3 class="work__title">{{card.title}}</h3>
               <a href="#" class="work__button">
+                  Demo
                   <i class="bx bx-right-arrow-alt work__icon"></i>
               </a>
           </div>

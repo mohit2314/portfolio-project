@@ -5,6 +5,7 @@
 <Skills />
 <Services />
 <Work />
+<Testimonials />
 </template>
 
 <script >
@@ -15,6 +16,7 @@ import About from '@/components/About.vue'
 import Skills from '@/components/Skills.vue';
 import Services from '@/components/Services.vue';
 import Work from '@/components/Work.vue';
+import Testimonials from '@/components/Testimonials.vue';
 export default {
  components:{
    Header,
@@ -22,7 +24,8 @@ export default {
    About,
    Skills,
    Services,
-   Work
+   Work,
+   Testimonials
  }
 
 };

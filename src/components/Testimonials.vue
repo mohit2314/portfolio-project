@@ -11,6 +11,22 @@
                 A really good job,all aspects of the were followed step by step and with good results.
             </p>
         </div>
+        <!-- card-2 -->
+        <div class="testimonial__card">
+            <img src="../assets/img/testimonial2.png" alt="" class="testimonial__img">
+            <h3 class="testimonial__name">John Doe</h3>
+            <p class="testimonial__description">
+                A really good job,all aspects of the were followed step by step and with good results.
+            </p>
+        </div>
+        <!-- card-3 -->
+        <div class="testimonial__card">
+            <img src="../assets/img/testimonial3.png" alt="" class="testimonial__img">
+            <h3 class="testimonial__name">John Doe</h3>
+            <p class="testimonial__description">
+                A really good job,all aspects of the were followed step by step and with good results.
+            </p>
+        </div>
     </div>
 </div>
   </section>
